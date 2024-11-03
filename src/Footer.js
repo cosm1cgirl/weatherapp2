@@ -3,8 +3,8 @@ import "./App.css";
 
 function Footer() {
   return (
-    <footer className="footer">
-      <p>
+    <footer className="footer bg-light text-center py-3">
+      <p className="mb-0">
         Coded By{" "}
         <a
           href="https://github.com/cosm1cgirl"
