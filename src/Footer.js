@@ -1,5 +1,6 @@
 import React from "react";
 import "./App.css";
+
 function Footer() {
   return (
     <footer className="footer">
@@ -13,15 +14,24 @@ function Footer() {
           Mary-Anne Schaffers
         </a>{" "}
         | Hosted on{" "}
-        <a href="" target="_blank" rel="noopener noreferrer">
+        <a
+          href="https://github.com/your-repo-link" // Replace with your GitHub repo link
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           GitHub
         </a>{" "}
         &{" "}
-        <a href="" target="_blank" rel="noopener noreferrer">
+        <a
+          href="https://your-netlify-link.netlify.app" // Replace with your Netlify site link
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           Netlify
         </a>
       </p>
     </footer>
   );
 }
+
 export default Footer;
