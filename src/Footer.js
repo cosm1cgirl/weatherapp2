@@ -15,7 +15,7 @@ function Footer() {
         </a>{" "}
         | Hosted on{" "}
         <a
-          href="https://github.com/your-repo-link" // Replace with your GitHub repo link
+          href="https://github.com/cosm1cgirl/weatherapp2"
           target="_blank"
           rel="noopener noreferrer"
         >
@@ -23,7 +23,7 @@ function Footer() {
         </a>{" "}
         &{" "}
         <a
-          href="https://your-netlify-link.netlify.app" // Replace with your Netlify site link
+          href="https://weatherjs2.netlify.app/"
           target="_blank"
           rel="noopener noreferrer"
         >
