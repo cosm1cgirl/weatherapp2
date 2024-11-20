@@ -45,7 +45,7 @@ function App() {
 
       setForecast(getDailyForecast(forecastResponse.data.list));
       setCurrentWeather({
-        wind: (currentWeatherResponse.data.wind.speed * 3.6).toFixed(1), // Convert m/s to km/h
+        wind: (currentWeatherResponse.data.wind.speed * 3.6).toFixed(1),
         humidity: currentWeatherResponse.data.main.humidity,
       });
     } catch (err) {
@@ -134,20 +134,20 @@ function App() {
           </div>
         </div>
       )}
-      {/* Footer */}
+      {}
       <footer className="text-center mt-5">
         <p>
           <strong>Coded by:</strong> Mary-Anne Schaffers|{" "}
           <a
-            href="https://github.com/your-username/your-repo"
+            href="https://github.com/cosm1cgirl"
             target="_blank"
             rel="noopener noreferrer"
           >
             GitHub
-          </a>{" "}
-          |{" "}
+          </a>
+          {"https://github.com/cosm1cgirl/weatherapp2 "}|{" "}
           <a
-            href="https://your-netlify-link.netlify.app"
+            href="https://weatherjs2.netlify.app/"
             target="_blank"
             rel="noopener noreferrer"
           >
