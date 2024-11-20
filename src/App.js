@@ -145,7 +145,7 @@ function App() {
           >
             GitHub
           </a>
-          {"https://github.com/cosm1cgirl/weatherapp2 "}|{" "}
+          {""}|{" "}
           <a
             href="https://weatherjs2.netlify.app/"
             target="_blank"
